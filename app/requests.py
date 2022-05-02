@@ -1,5 +1,5 @@
 import urllib.request,json
-from .model import News
+from .models import News
 
 api_key = None
 base_url = None
@@ -24,10 +24,11 @@ def get_news():
     if get_news_response['articles']:
         news_results_list = get_news_response['articles']
         news_results = process_results(news_results_list) 
-
-
+                        
     return news_results
-    def process_results(news_list):
+
+
+def process_results(news_list):
         '''
         function that processes the movie result and transform them to a list of objects
 
@@ -37,14 +38,13 @@ def get_news():
          Returns:
          news results: a list of new objects
          '''
-
         news_results = []
         for news_item in news_list:
             title = news_item.get('title')
             description = news_item.get('description')
             urlToImage = news_item.get('urlToImage')
             content = news_item.get('content')
-            publishedit = news_item.get('publishedAt')
+            publishedAt = news_item.get('publishedAt')
 
 
             news_object = News(title,description,urlToImage,content,publishedAt)
