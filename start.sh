@@ -1,0 +1,2 @@
+export NEWS_API_KEY='df87776a71c749458045ed641e8687cb'
+export SECRET_KEY='Flask WTF Secret Key'

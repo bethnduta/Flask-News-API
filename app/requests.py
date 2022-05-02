@@ -45,6 +45,4 @@ def process_results(news_list):
             urlToImage = news_item.get('urlToImage')
             content = news_item.get('content')
             publishedAt = news_item.get('publishedAt')
-
-
             news_object = News(title,description,urlToImage,content,publishedAt)
