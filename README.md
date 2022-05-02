@@ -35,6 +35,19 @@ open the application on your browser 127.0.0.1.5000
 ## Known Bugs
 There are some bugs in the project kindly pull make the corrections and push the changes to my repository.
 
+## Technologies Used
+* [HTML]
+* [CSS]
+* [JS]
+* [PYTHON3.9]
+* [FLASK]
+* [HEROKU]
+
+# Contact Details
+Incase of any contributions fork the repository and make any substantial changes. incase of any contributions kindly reach me through bethnduta05@gmail.com/ slack me bethnduta
+
+license
+MIT Copyright (c) 2022 FLASK-NEWS-API
 
 
 
