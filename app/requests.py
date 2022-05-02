@@ -44,7 +44,7 @@ def get_news():
             description = news_item.get('description')
             urlToImage = news_item.get('urlToImage')
             content = news_item.get('content')
-            publishedit = news_item.get('publishedit')
+            publishedit = news_item.get('publishedAt')
 
 
-            news_object = News(title,description,urlToImage,content,publishedit)
+            news_object = News(title,description,urlToImage,content,publishedAt)
