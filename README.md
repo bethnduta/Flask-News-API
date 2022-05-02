@@ -10,6 +10,32 @@ Your parents as the user they will be able to:
 * They can see the image, description and time the news was created
 * They can click on an article and read the full article on the source website
 
+## SETUP/INSTALLATION REQUIREMENTS
+To get the source code of the project:
+* Clone the repository;
+git clone https://github.com/bethnduta/Flask-News-API.git
+
+* Go to your folder and install the requirements
+cd Flask-News-API
+pip install -r requirements.txt
+
+* Exporting configurations
+export your News API_KEY = '(enter your NEWS_API_KEY)
+
+* Running the application
+chmod a+x start.sh
+
+./start.sh
+
+* Testing the application
+python3.9 manage.py test
+
+open the application on your browser 127.0.0.1.5000
+
+## Known Bugs
+There are some bugs in the project kindly pull make the corrections and push the changes to my repository.
+
+
 
 
 
