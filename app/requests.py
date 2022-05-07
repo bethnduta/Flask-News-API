@@ -29,15 +29,6 @@ def get_news():
 
 
 def process_results(news_list):
-        '''
-        function that processes the movie result and transform them to a list of objects
-
-        Args:
-         news_list: a list of dictionaries that contain news details
-
-         Returns:
-         news results: a list of new objects
-         '''
         news_results = []
         for news_item in news_list:
             title = news_item.get('title')
