@@ -9,6 +9,7 @@ Your parents as the user they will be able to:
 * They can select a news source and see all the news articles from the selected news source in the application
 * They can see the image, description and time the news was created
 * They can click on an article and read the full article on the source website
+* This is the link to the deployment on heroku https://newspiab.herokuapp.com/
 
 ## SETUP/INSTALLATION REQUIREMENTS
 To get the source code of the project:
